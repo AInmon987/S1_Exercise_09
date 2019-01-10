@@ -11,7 +11,7 @@
       Author: Austin Inmon
       Date:   1.07.19
 
-      Filename:   rb_survey.html
+      Filename:   index.html
 
    -->
 
@@ -53,6 +53,19 @@
             Pizza will not share your contact information with third
             parties, <em>ever</em>. </p>
         <p>Required values are marked by an asterisk (*)</p>
+
+        <form id="survey" action="http://www.example.com/redball/survey" method="POST" enctype="">
+            <fieldset id="custInfo">
+                <legend>Customer Information</legend>
+                Name*
+                <input type="text" name="custName" id="name">
+            </fieldset>
+
+            <fieldset id="expInfo">
+                <legend>Share your experience at Red Ball Pizza</legend>
+            </fieldset>
+        </form>
+
 
     </section>
     <footer>
